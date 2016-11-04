@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="初めてのHTMLポートフォリオ制作">
     <title>Portfolio Sample</title>
-    
+
     <!-- BootstrapのCSS読み込み -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <!-- jQuery読み込み -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- BootstrapのJS読み込み -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    
+
     <link rel="stylesheet" href="index.css">
-  </head>
-  <body>
-     <!-- ここから雛形にグリッドを追記 -->
-    <!<header style="background-color:gray">Header</header>
+</head>
+
+<body>
+    <!-- ここから雛形にグリッドを追記 -->
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-2"></div>
@@ -25,55 +27,61 @@
             <div class="col-sm-2"></div>
         </div>
     </div>
-       <header>
-            <nav>
-                <ul>
-                    <li><a href="mb.html">MB</a></li>
-                    <li><a href="tc.html">TC</a></li>
-                    <li><a href="ml.html">ML</a></li>
-                    <li><a href="os.html">OS</a></li>
-                </ul>
-            </nav>
-            <div id="logo">
-                <img src="profile.jpg" alt="">
-                <h1>守實　正</h1>
-            </div>
-        </header>
-        <div class="container">
-            <section>
-                <h2>Portfolio</h2>
-                <h3>自己紹介</h3>
-                <p>守實　正　</p> 
-                <p>香川県高松市出身。ＷＥＢプログラミングの勉強をしています。</p>
-                <p>最近は、ICTについての資料を作成しております。</p>
-                
-            </section>
-            
-            
+    <header>
+        <nav>
+            <ul>
+                <li><a href="mb.html">MB</a></li>
+                <li><a href="tc.html">TC</a></li>
+                <li><a href="ml.html">ML</a></li>
+                <li><a href="os.html">OS</a></li>
+            </ul>
+        </nav>
+        <div id="logo">
+            <img src="profile.jpg" alt="">
+            <h1>守實　正</h1>
+        </div>
+    </header>
+    <div class="container">
+        <section>
+            <h2>Portfolio</h2>
+            <h3>自己紹介</h3>
+            <p>守實　正　</p>
+            <p>私は、香川県高松市出身です。</p>
+            <p>個人的には最近ではICTに関係した資料を集めております。</p>
+            <p>今回、縁あって人生初めてのＷＥＢプログラミングスクールに参加しました。</p>
+            <p>できるだけ多くのことを学んで帰ろうと思っております。</p>
+            <ul>
+                <li><a href="https://github.com/tadashi-morizane" target="blank">URLへのリンク</a></li>
+            </ul>
+
+
+
+        </section>
+
+
         <div class="row">
             <div class="col-xs-6 col-md-3">
-                <a href="mb.jpg" class="img-thumbnail" >メッセージボード</a></li>
-                </div>
-            <div class="col-xs-6 col-md-3">    
-                <a href="tc.jpg" class="thumbnail">Twitter　Crohn</a></li>
-                </div>
-            <div class="col-xs-6 col-md-3">   
-                <a href="ml.jpg" class="thumbnail">モノリスト</a></li>
-                </div>
-            <div class="col-xs-6 col-md-3">   
-                <a href="os.jpg" class="thumbnail">オリジナルサービス</a></li>
-               </div>
-                
-        </div>    
-            <footer>
-                <p>&copy; 2016 Tadashi　Morizane</p>
-            </footer>
-        </div>
-    </body>
+                <img src="msg.png" class="img-thumbnail" alt="msg.png">
+                <p class="sample">メッセージボード</p>
+            </div>
+            <div class="col-xs-6 col-md-3">
+                <img src="twitter.png" class="img-thumbnail" alt="twitter.png">
+                <p class="sample">Twitter Crohn</p>
+            </div>
+            <div class="col-xs-6 col-md-3">
+                <img src="mono.png" class="img-thumbnail" alt="mono.png">
+                <p class="sample">モノリスト</p>
+            </div>
+            <div class="col-xs-6 col-md-3">
+                <img src="orijinal.png" class="img-thumbnail" alt="original.png">
+                <p class="sample">オリジナルサービス</p>
+            </div>
 
-    </html>
-  
-    <footer style="background-color:gray">Footer</footer>
-    <!-- ここまで雛形にグリッドを追記 --> 
-  </body>
+        </div>
+        <footer>
+            <p>&copy; 2016 Tadashi　Morizane</p>
+        </footer>
+    </div>
+</body>
+
 </html>
